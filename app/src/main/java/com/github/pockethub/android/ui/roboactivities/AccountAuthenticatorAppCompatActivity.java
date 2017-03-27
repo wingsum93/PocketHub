@@ -50,7 +50,7 @@ import io.reactivex.subjects.BehaviorSubject;
 public class AccountAuthenticatorAppCompatActivity extends AppCompatActivity implements LifecycleProvider<ActivityEvent> {
     private AccountAuthenticatorResponse mAccountAuthenticatorResponse = null;
     private Bundle mResultBundle = null;
-
+    //keep sent the latest activity life cycle event
     private final BehaviorSubject<ActivityEvent> lifecycleSubject = BehaviorSubject.create();
 
     @Override

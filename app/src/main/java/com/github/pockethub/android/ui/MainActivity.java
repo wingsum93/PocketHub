@@ -70,7 +70,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
+//call when login...
 public class MainActivity extends BaseActivity implements
     LoaderManager.LoaderCallbacks<List<User>>, NavigationView.OnNavigationItemSelectedListener {
 

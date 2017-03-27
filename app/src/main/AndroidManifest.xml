@@ -49,11 +49,11 @@
             android:name="com.github.pockethub.android.ui.gist.CreateGistActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/create_gist"
-            android:parentActivityName="com.github.pockethub.ui.MainActivity"
+            android:parentActivityName="ui.MainActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.github.pockethub.ui.MainActivity" />
+                android:value="ui.MainActivity" />
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
